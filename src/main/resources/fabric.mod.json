@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "gc-info",
+	"version": "${version}",
+	"name": "GC Info",
+	"description": "Show game's garbage collector information.",
+	"authors": [
+		"Myitian"
+	],
+	"contact": {
+		"sources": "https://github.com/Myitian/gc-info-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/gc-info/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.myitian.GCInfo"
+		],
+		"client": [
+			"net.myitian.GCInfoClient"
+		]
+	},
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
